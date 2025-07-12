@@ -1,13 +1,15 @@
-import RectangleTool from "./components/Rectangle"
-import WhiteBoard from "./components/WhiteBoard"
+
+import WhiteBoard from "./components/WhiteBoard";
 
 const App = () => {
-  return (
-   <>
-   <WhiteBoard/>
-   <RectangleTool/>
-   </>
-  )
-}
+    return (
+        <>
+            <div className="relative">
+              
+                <WhiteBoard />
+            </div>
+        </>
+    );
+};
 
-export default App
+export default App;
